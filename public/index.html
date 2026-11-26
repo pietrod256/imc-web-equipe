@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IMC Web — Testes e DevOps</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main class="cartao">
+    <h1>Calculadora de IMC</h1>
+    <p>Informe o peso em quilogramas e a altura em metros.</p>
+    <form id="form-imc">
+      <label for="peso">Peso (kg)</label>
+      <input id="peso" name="peso" type="number" step="any" min="0.01" required placeholder="Ex.: 80">
+      <label for="altura">Altura (m)</label>
+      <input id="altura" name="altura" type="number" step="any" min="0.01" required placeholder="Ex.: 2">
+      <button type="submit">Calcular IMC</button>
+    </form>
+    <section id="resultado" role="status" aria-live="polite"></section>
+    <small>Classificação didática para adultos; não substitui avaliação clínica.</small>
+  </main>
+</body>
+</html>

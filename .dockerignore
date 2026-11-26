@@ -1,0 +1,9 @@
+node_modules
+.git
+.github
+.vercel
+playwright-report
+test-results
+coverage
+*.log
+.env*
